@@ -12,7 +12,7 @@ function Receiver(width, height, options) {
 
   this._resizer = new Resizer(width, height, options);
 
-  Transform.call(this, {objectMode: true, end: true});
+  Transform.call(this, {objectMode: true});
 }
 
 util.inherits(Receiver, Transform);
