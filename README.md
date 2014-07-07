@@ -1,0 +1,4 @@
+Thumbnailing receiver for Skipper
+=================================
+
+
