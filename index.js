@@ -20,7 +20,7 @@ util.inherits(Receiver, Transform);
 Receiver.prototype._transform = function(file, enc, cb) {
   var resized = file.pipe(this._resizer);
   resized.filename = file.filename;
-  this.push(resized);
+  this.push(resized, enc);
   
   cb();
 };
