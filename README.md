@@ -1,6 +1,10 @@
 Thumbnailing receiver for Skipper
 =================================
 
+## Usage
+
+https://github.com/bredikhin/sailsjs-skipper-thumbnail-example
+
 ## Dependencies
 
 * [image-resize-stream](https://github.com/hughsk/image-resize-stream).
